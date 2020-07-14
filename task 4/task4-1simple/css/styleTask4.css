@@ -1,0 +1,59 @@
+body{
+	margin: 0;
+	padding:0; 
+}
+.container{
+	max-width: 770px;
+	margin: 0 auto;
+}
+.head{
+	background-color: red;
+	margin-top: 10px;
+}
+.head h1{
+	margin: 0;
+	text-align: center;
+	color: #fff;
+}
+.foto1 img{
+	width: 100%;
+}
+.foto1{
+	margin-top: 10px;
+}
+.text-top{
+	margin-top: 10px;
+}
+.text-top p, .text-bottom p{
+	margin: 0;
+	font-size: 18px;
+}
+.text-top span{
+	color: #4E20FF;
+	font-weight: bold;
+}
+.line_foto{
+	margin-top: 10px;
+	text-align: center;
+}
+.foto_car {
+	border: 2px dashed #000;
+	margin-left: 5px;
+}
+.text-bottom{
+	margin-top: 10px;
+}
+.text-bottom span{
+	color: #4E20FF;
+}
+.foot{
+	background-color: #000;
+	color: #fff;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.foot p{
+	margin: 0;
+	font-size: 20px;
+	text-align: center;
+}
