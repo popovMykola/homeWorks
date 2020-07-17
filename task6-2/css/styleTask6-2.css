@@ -1,0 +1,83 @@
+body{
+	font-family:  \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+}
+#bg_header{
+	background-color: #4A4F56;
+}
+main{
+	background-color: #3B3F45;
+	padding-bottom: 50px;
+}
+.title{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.title h1{
+	margin: 0;
+	color: #E87B79;
+}
+.title p{
+	padding-top: 15px;
+	margin: 0;
+	color: #E87B79;
+	font-size: 18px;
+}
+
+.form_list{
+	width: 500px;
+	position: relative;
+	padding-top: 30px;
+	margin-left: 400px;
+}
+.footer p{
+	margin: 0;
+	color: #E87B79;
+	font-size: 18px;
+	padding: 15px 0;
+}
+.footer{
+	background-color: #4A4F56;
+	width: 500px;
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 20px;
+}
+.cheked_form{
+	padding: 10px 0 10px 5px;
+}
+
+.form_list div.cheked_form:nth-child(1),
+.form_list div.cheked_form:nth-child(3),
+.form_list div.cheked_form:nth-child(5){
+	background-color: #87849D;
+}
+.form_list div.cheked_form:nth-child(2),
+.form_list div.cheked_form:nth-child(4),
+.form_list div.cheked_form:nth-child(6){
+	background-color: #797692;
+}
+
+.form_list div.cheked_form:hover{
+	background-color: #615F76;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+.cheked_form label{
+	color: #fff;
+	font-size: 20px;
+}
+.cheked_form span{
+	color: #BBBECC;
+	font-size: 14px;
+}
+span::before{
+	content: '('
+}
+span::after{
+	content: ')'
+}
+input:checked + label{
+	text-decoration: line-through;
+	color: #BBBECC;
+}
